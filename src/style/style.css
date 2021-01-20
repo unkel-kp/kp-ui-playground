@@ -1,0 +1,53 @@
+.home-container {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+.home-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.home-options {
+    margin: 10vmin;
+    pointer-events: stroke;
+}
+
+.home-icons {
+    height: 20vmin;
+}
+
+
+.documentation {
+    display: grid;
+    margin: 10vh 0;
+    grid-template-columns: 1fr 10fr 1fr;
+    text-align: justify;
+    color: white;
+    line-height: calc(12px + 2vmin);
+}
+
+.documentation h3{
+    margin-top: 2em;
+    color: rgb(255, 167, 196);
+}
+
+.documentation .code{
+    padding: 0.5em 1em;
+    margin: 0.5em 0em 2em 0em;
+    border: 1px solid white;
+    background-color: rgb(255,255,255, 0.15);
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+.doc-body a {
+    color: rgb(255, 167, 196);
+    text-decoration: none;
+}
+
